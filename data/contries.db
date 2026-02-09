@@ -1,0 +1,5 @@
+{"code":"th","name":"태국","nameEn":"Thailand","voltage":220,"visa":{"required":false,"duration":30},"continent":"Asia","_id":"8dC8XyMaoxP84FRg"}
+{"code":"kr","name":"한국","nameEn":"Korea","voltage":220,"visa":{"required":false,"duration":90},"continent":"Asia","_id":"ESg188iayfj7e5KR"}
+{"code":"fr","name":"프랑스","nameEn":"France","voltage":220,"visa":{"required":false,"duration":90},"continent":"Europe","_id":"TvPC00XGovMF797f"}
+{"code":"jp","name":"일본","nameEn":"Japan","voltage":110,"visa":{"required":false,"duration":90},"continent":"Asia","_id":"d79TOMgHLqpHjlzC"}
+{"code":"us","name":"미국","nameEn":"United States","voltage":110,"visa":{"required":true,"duration":90},"continent":"North America","_id":"yjApBgTL3xsaw6eZ"}
