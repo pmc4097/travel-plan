@@ -1,13 +1,15 @@
 import SearchIcon from "@icons/search.svg?react";
+import { useState } from "react";
 
 
 interface Props {
-    value: string;
-    onChange: (value: string) => void;
     onCompositionEnd: (value: string) => void
 }
 
-export default function SearchInput({ value, onChange, onCompositionEnd }: Props) {
+export default function SearchInput({ onCompositionEnd }: Props) {
+    const [search, setSearch] = useState('');
+
+
     return (
         <div className="w-full relative">
             <input
