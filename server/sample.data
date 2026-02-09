@@ -1,157 +1,92 @@
 export const cities": City[] = [
   {
-    "code": "seoul",
-    "name": "서울",
-    "nameEn": "Seoul",
-    "thumbnail": "https"://picsum.photos/300/200?random=1",
-    "description": "대한민국의 수도이자 문화·쇼핑·미식의 중심지",
-    "timezone": "Asia/Seoul",
-    "flightHour": 0,
-    "timezoneOffset": 0,
-    "coordinates": {
-      "lat": 37.5665,
-      'lng": 126.9780,
-    },
-    "country": {
-      "code": "kr",
-      "name": "한국",
-      "nameEn": "Korea",
-      "voltage": 220,
-      "visa": {
-        "required": false,
-        "duration": 90,
-      },
-      "continent": "Asia",
-    },
+  "code": "seoul",
+  "name": "서울",
+  "nameEn": "Seoul",
+  "thumbnail": "https://picsum.photos/300/200?random=1",
+  "description": "대한민국의 수도이자 문화·쇼핑·미식의 중심지",
+  "timezone": "Asia/Seoul",
+  "flightHour": 0,
+  "timezoneOffset": 0,
+  "coordinates": {
+    "lat": 37.5665,
+    "lng": 126.9780
   },
-
-  {
+  "country": "kr"
+},
+{
     "code": "busan",
     "name": "부산",
     "nameEn": "Busan",
-    "thumbnail": "https"://picsum.photos/300/200?random=2",
+    "thumbnail": "https://picsum.photos/300/200?random=2",
     "description": "해변과 항구, 먹거리가 유명한 대한민국 제2의 도시",
     "timezone": "Asia/Seoul",
     "flightHour": 1,
     "timezoneOffset": 0,
     "coordinates": {
       "lat": 35.1796,
-      "lng": 129.0756,
+      "lng": 129.0756
     },
-    "country": {
-      "code": "kr",
-      "name": "한국",
-      "nameEn": "Korea",
-      "voltage": 220,
-      "visa": {
-        "required": false,
-        "duration": 90,
-      },
-      "continent": "Asia",
-    },
+    "country": "kr"
   },
-
   {
     "code": "tokyo",
     "name": "도쿄",
     "nameEn": "Tokyo",
-    "thumbnail": "https"://picsum.photos/300/200?random=3",
+    "thumbnail": "https://picsum.photos/300/200?random=3",
     "description": "전통과 현대가 공존하는 일본의 수도",
     "timezone": "Asia/Tokyo",
     "flightHour": 2,
     "timezoneOffset": 0,
     "coordinates": {
       "lat": 35.6762,
-      "lng": 139.6503,
+      "lng": 139.6503
     },
-    "country": {
-      "code": "jp",
-      "name": "일본",
-      "nameEn": "Japan",
-      "voltage": 110,
-      "visa": {
-        "required": false,
-        "duration": 90,
-      },
-      "continent": "Asia",
-    },
+    "country": "jp"
   },
-
   {
     "code": "bangkok",
     "name": "방콕",
     "nameEn": "Bangkok",
-    "thumbnail": "https"://picsum.photos/300/200?random=4",
+    "thumbnail": "https://picsum.photos/300/200?random=4",
     "description": "야시장과 사원, 미식이 유명한 태국의 수도",
     "timezone": "Asia/Bangkok",
     "flightHour": 6,
     "timezoneOffset": -2,
     "coordinates": {
       "lat": 13.7563,
-      "lng": 100.5018,
+      "lng": 100.5018
     },
-    "country": {
-      "code": "th",
-      "name": "태국",
-      "nameEn": "Thailand",
-      "voltage": 220,
-      "visa": {
-        "required": false,
-        "duration": 30,
-      },
-      "continent": "Asia",
-    },
+    "country": "th"
   },
-
   {
     "code": "paris",
     "name": "파리",
     "nameEn": "Paris",
-    "thumbnail": "https"://picsum.photos/300/200?random=5",
+    "thumbnail": "https://picsum.photos/300/200?random=5",
     "description": "예술과 패션의 중심지, 프랑스의 수도",
     "timezone": "Europe/Paris",
     "flightHour": 12,
     "timezoneOffset": -8,
     "coordinates": {
-      'lat": 48.8566,
-      "lng": 2.3522,
+      "lat": 48.8566,
+      "lng": 2.3522
     },
-    "country": {
-      "code": "fr",
-      "name": "프랑스",
-      "nameEn": "France",
-      "voltage": 220,
-      "visa": {
-        "required": false,
-        "duration": 90,
-      },
-      "continent": "Europe",
-    },
+    "country": "fr"
   },
-
   {
     "code": "newyork",
     "name": "뉴욕",
     "nameEn": "New York",
-    "thumbnail": "https"://picsum.photos/300/200?random=6",
+    "thumbnail": "https://picsum.photos/300/200?random=6",
     "description": "세계 금융과 문화의 중심지",
     "timezone": "America/New_York",
     "flightHour": 14,
     "timezoneOffset": -14,
     "coordinates": {
       "lat": 40.7128,
-      "lng": -74.0060,
+      "lng": -74.0060
     },
-    "country": {
-      "code": "us",
-      "name": "미국",
-      "nameEn": "United States",
-      "voltage": 110,
-      "visa": {
-        "required": true,
-        "duration": 90,
-      },
-      "continent": "North America",
-    },
-  },
+    "country": "us"
+}
 ];
