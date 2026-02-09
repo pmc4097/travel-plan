@@ -1,3 +1,4 @@
+import NarowLayout from "@/components/common/NarowLayout";
 import CityList from "@/components/home/CityList";
 import FilterList from "@/components/home/FilterList";
 import SearchInput from "@/components/home/SearchInput";
@@ -10,15 +11,21 @@ export default function Home() {
 
     // const { data } = useQuery()  //국가필터, 검색 필터
     return (
-        <div className="max-w-[655px] w-full mx-auto flex flex-col items-center">
+        <NarowLayout className="flex flex-col items-center my-30">
             <div className="w-[339px] mb-24">
-                <SearchInput value={search} onChange={setSearch} onCompositionEnd={(value) => { console.log(value) }} />
+                <SearchInput
+                    value={search}
+                    onChange={setSearch}
+                    onCompositionEnd={(value) => { console.log(value) }}
+                />
             </div>
             <div className="mb-21">
-                <FilterList active="all" onChange={() => { }} />
+                <FilterList
+                    active="all"
+                    onChange={() => { }} />
             </div>
             <CityList cities={DUMMY_DATA} />
-        </div>
+        </NarowLayout>
     )
 }
 
