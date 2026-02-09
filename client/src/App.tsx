@@ -1,5 +1,8 @@
+import RegisterCity from '@/components/admin/RegisterCity'
 import './App.css'
-import RegisterCity from './components/admin/RegisterCity'
+
+
+
 
 function App() {
 
