@@ -1,4 +1,4 @@
-import { FunctionComponent } from "react";
+import { FunctionComponent, ReactNode } from "react";
 import { create } from "zustand";
 
 interface State {
@@ -36,4 +36,35 @@ export const useModalStore = create<ModalState & ModalAction>()((set) => ({
     set((state) => ({ modals: state.modals.filter((_, i) => i !== index) })),
 
   closeAll: () => set({ modals: [] }),
+}));
+
+interface ModalItem {
+  id: string;
+  content: (id: string) => ReactNode;
+}
+
+interface CustomModalState {
+  modals: ModalItem[];
+}
+
+interface CustomModalAction {
+  createModal: (content: (id: string) => ReactNode) => string;
+  removeModal: (id: string) => void;
+}
+export const useCustomModalStore = create<
+  CustomModalState & CustomModalAction
+>()((set) => ({
+  modals: [],
+  createModal: (content: (id: string) => ReactNode) => {
+    const id = crypto.randomUUID();
+    set((state) => ({
+      modals: [...state.modals, { id, content }],
+    }));
+    return id;
+  },
+  removeModal: (id: string) => {
+    set((state) => ({
+      modals: state.modals.filter((modal) => modal.id !== id),
+    }));
+  },
 }));
